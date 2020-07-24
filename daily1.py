@@ -2,7 +2,7 @@
 #-----------------------------
 #Data Structures
 #List - ordered collection of items, mutable : [square ]
-list1 = [1,2,3,4,5,'a','Dhiraj',"Upadhyaya",True]  #list type of object with data
+list1 = [1,2,3,4,5,'a','Himanshu',"Gupta",True]  #list type of object with data
 list1  #print when through spyder
 type(list1)  #type of object
 print(list1)  #print when running complete file
@@ -190,7 +190,7 @@ data = mtcars.data
 data.head(6)
 type(data)
 data.to_csv('mtcars.csv')
-data.to_excel('mtcarsExcel.xlsx','sheet3', header=False)
+data.to_excel('mtcarsExcel.xlsx','sheet3', header=True)
 
 #writing to multiple sheets
 writer = pd.ExcelWriter('test.xlsx', engine='xlsxwriter')
